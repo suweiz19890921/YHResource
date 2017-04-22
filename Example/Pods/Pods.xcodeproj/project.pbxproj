@@ -24,7 +24,6 @@
 		2907CFF2F86078D0ED7D63A9CC87F1F5 /* HQDBDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7237C3D3624FB3DA91CC5F622B35346F /* HQDBDecode-dummy.m */; };
 		2CAEBDE79BE071CC58FED130AAD82DDB /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76146200639BEAA467A24ECFF768E35D /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33BA5030E07501BE295E427F58409CE0 /* YHLanguageSetting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 409D10F25DC60B47CC119A0B58E90340 /* YHLanguageSetting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33C14DE5C0F388AFAEA3510977B1937F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E56B320C6FFC81E5D81FF7148C6E287B /* ReplaceMe.m */; };
 		344149D37E4F97DEE0BB542D60CD986C /* HQDBDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA8228B21B90D8C67C766ED95C1138F /* HQDBDecode.framework */; };
 		34A60FD4DBE2BE391604449D2C7FDE69 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACDED6D677096EBB5662FC21E3E10D2 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C4196C6555C1DA45F6DFD6ECD7AA52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DC65E314E4417B9BE1EB56D417E501 /* Foundation.framework */; };
@@ -405,7 +404,6 @@
 		E13C49A24AC6ADDB317559DD0924A985 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		E3244E557976C7CC031D8C104D346A90 /* HQDBDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQDBDecode-prefix.pch"; sourceTree = "<group>"; };
 		E465A781A3EA15C5290B25DCDB33B987 /* Pods-YHResource_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHResource_Example-dummy.m"; sourceTree = "<group>"; };
-		E56B320C6FFC81E5D81FF7148C6E287B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E90F058C207A547EE21635F999DBAD91 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		EC92B4B38C9A0F22D046D58447E50DF5 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		ED12D9F0A68B08BF862841EA25967ACC /* GZIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GZIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -668,7 +666,6 @@
 		43A78DAE795CE86D247E4D3D3F358FEC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E56B320C6FFC81E5D81FF7148C6E287B /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1396,7 +1393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C14DE5C0F388AFAEA3510977B1937F /* ReplaceMe.m in Sources */,
 				DAC5F0F62DE9316829505EE0364668E1 /* YHResource-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

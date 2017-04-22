@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4AD372C71EAB7F610063735D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4AD372C11EAB7F610063735D /* .gitkeep */; };
-		4AD372C81EAB7F610063735D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C21EAB7F610063735D /* ReplaceMe.m */; };
 		4AD372C91EAB7F610063735D /* YHResourceCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */; };
 		4AD372CA1EAB7F610063735D /* YHResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C61EAB7F610063735D /* YHResourceModel.m */; };
 		5ACDA59524C03A37A3AC3DEE /* Pods_YHResource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66C566DDDDC31EBDEAAAAE9 /* Pods_YHResource_Tests.framework */; };
@@ -42,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		4AD372C11EAB7F610063735D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4AD372C21EAB7F610063735D /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4AD372C31EAB7F610063735D /* YHResourceCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResourceCacheManager.h; sourceTree = "<group>"; };
 		4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResourceCacheManager.m; sourceTree = "<group>"; };
 		4AD372C51EAB7F610063735D /* YHResourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResourceModel.h; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				4AD372C11EAB7F610063735D /* .gitkeep */,
-				4AD372C21EAB7F610063735D /* ReplaceMe.m */,
 				4AD372C31EAB7F610063735D /* YHResourceCacheManager.h */,
 				4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */,
 				4AD372C51EAB7F610063735D /* YHResourceModel.h */,
@@ -424,7 +421,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD372C91EAB7F610063735D /* YHResourceCacheManager.m in Sources */,
-				4AD372C81EAB7F610063735D /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
 				4AD372CA1EAB7F610063735D /* YHResourceModel.m in Sources */,
