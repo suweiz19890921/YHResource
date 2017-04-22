@@ -1,0 +1,6 @@
+framework module HQDBDecode {
+  umbrella header "HQDBDecode-umbrella.h"
+
+  export *
+  module * { export * }
+}

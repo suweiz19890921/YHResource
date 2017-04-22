@@ -1,0 +1,6 @@
+framework module YHResource {
+  umbrella header "YHResource-umbrella.h"
+
+  export *
+  module * { export * }
+}

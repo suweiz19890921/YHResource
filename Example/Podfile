@@ -1,5 +1,6 @@
 use_frameworks!
-
+source 'http://git.solot.co:10080/liuhuanqing/HQSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 target 'YHResource_Example' do
   pod 'YHResource', :path => '../'
 

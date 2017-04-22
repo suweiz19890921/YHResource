@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AD372C71EAB7F610063735D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4AD372C11EAB7F610063735D /* .gitkeep */; };
+		4AD372C81EAB7F610063735D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C21EAB7F610063735D /* ReplaceMe.m */; };
+		4AD372C91EAB7F610063735D /* YHResourceCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */; };
+		4AD372CA1EAB7F610063735D /* YHResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD372C61EAB7F610063735D /* YHResourceModel.m */; };
 		5ACDA59524C03A37A3AC3DEE /* Pods_YHResource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66C566DDDDC31EBDEAAAAE9 /* Pods_YHResource_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AD372C11EAB7F610063735D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4AD372C21EAB7F610063735D /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4AD372C31EAB7F610063735D /* YHResourceCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResourceCacheManager.h; sourceTree = "<group>"; };
+		4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResourceCacheManager.m; sourceTree = "<group>"; };
+		4AD372C51EAB7F610063735D /* YHResourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHResourceModel.h; sourceTree = "<group>"; };
+		4AD372C61EAB7F610063735D /* YHResourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHResourceModel.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YHResource_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHResource_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AD372C01EAB7F610063735D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AD372C11EAB7F610063735D /* .gitkeep */,
+				4AD372C21EAB7F610063735D /* ReplaceMe.m */,
+				4AD372C31EAB7F610063735D /* YHResourceCacheManager.h */,
+				4AD372C41EAB7F610063735D /* YHResourceCacheManager.m */,
+				4AD372C51EAB7F610063735D /* YHResourceModel.h */,
+				4AD372C61EAB7F610063735D /* YHResourceModel.m */,
+			);
+			name = Classes;
+			path = ../../YHResource/Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +156,7 @@
 		6003F593195388D20070C39A /* Example for YHResource */ = {
 			isa = PBXGroup;
 			children = (
+				4AD372C01EAB7F610063735D /* Classes */,
 				6003F59C195388D20070C39A /* YHAppDelegate.h */,
 				6003F59D195388D20070C39A /* YHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -250,6 +275,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "617907240@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G25YSPXR6H;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,6 +309,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				4AD372C71EAB7F610063735D /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,8 +423,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD372C91EAB7F610063735D /* YHResourceCacheManager.m in Sources */,
+				4AD372C81EAB7F610063735D /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* YHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YHViewController.m in Sources */,
+				4AD372CA1EAB7F610063735D /* YHResourceModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +556,7 @@
 			baseConfigurationReference = DB062CB6AC1D49D53A62CFAA /* Pods-YHResource_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHResource/YHResource-Prefix.pch";
 				INFOPLIST_FILE = "YHResource/YHResource-Info.plist";
@@ -539,6 +572,7 @@
 			baseConfigurationReference = D06D237C50E24F89BC171D38 /* Pods-YHResource_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G25YSPXR6H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YHResource/YHResource-Prefix.pch";
 				INFOPLIST_FILE = "YHResource/YHResource-Info.plist";

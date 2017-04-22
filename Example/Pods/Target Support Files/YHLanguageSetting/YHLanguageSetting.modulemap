@@ -1,0 +1,6 @@
+framework module YHLanguageSetting {
+  umbrella header "YHLanguageSetting-umbrella.h"
+
+  export *
+  module * { export * }
+}

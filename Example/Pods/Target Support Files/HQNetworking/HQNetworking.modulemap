@@ -1,0 +1,6 @@
+framework module HQNetworking {
+  umbrella header "HQNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
