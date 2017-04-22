@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YHResource_Example' do
+  pod 'YHResource', :path => '../'
+
+  target 'YHResource_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
