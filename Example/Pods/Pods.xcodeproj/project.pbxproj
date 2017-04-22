@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0033BF72B75CE65B279FFF227FDE2AC0 /* YHResource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B023850D9FF107C0F8217281E6151C60 /* YHResource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		007C0E3125B920D0C3E4A9C7EB3724C7 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F055ADBAC30537E37165B9FA1E000C61 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01E23B38B619537D3EAD95C241F2AE79 /* GZIP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 667E248DD1AAFD420E497E79B7CBDE04 /* GZIP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C9A6E2623E6A711E5FE965D42591D63 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AC92F78E2F5DC361D0169856C0DCE8 /* NSObject+YYModel.m */; };
@@ -31,6 +32,7 @@
 		3A06DC610BFAF8E9AE5E5E52AC869CE9 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1766AAC33124D826EEA94D58D3B3A4EE /* YYModel.framework */; };
 		3ECC23FFAE400A6B2658AAF2990D83BE /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF68F0368236AB59D0B01ED63F839E3 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F61BE79D4B46C119C136EDE960CE78C /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA7BCF72679BEF92FFB5D28FC88BFB6 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41DFAF9D4A903F969AC9BA020B97A01F /* YHResourceCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF8C2B1C00758A129BE6E6B1B4183EE /* YHResourceCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47E41436ADC2CF5E965C33B245AEDBAF /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C97FEB289EF1D5512BA221971B2EDAF /* YYClassInfo.m */; };
 		4C80E596C3ED9851C352696246219939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DC65E314E4417B9BE1EB56D417E501 /* Foundation.framework */; };
 		4CD71F8632C54B03729E54CF533A1CBE /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05EC6D9EB3CBD3637A914AB8AECF531 /* YYModel.framework */; };
@@ -39,12 +41,12 @@
 		4DB41F3FB44E35B0F243C4F0382C53F8 /* HQAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F25696AA7D11A03231F7E31981CF44 /* HQAPIManager.m */; };
 		5124DC0535D1AA930F9CC4A65FECF7D3 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED12D9F0A68B08BF862841EA25967ACC /* GZIP.framework */; };
 		53A4C806F03C2CADA3552596B6EB6D41 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059389446033A9ACBB4DBDAE513CA523 /* FMDB.framework */; };
-		53C632AD596946FF51E0F2BF0B235580 /* YHResource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B023850D9FF107C0F8217281E6151C60 /* YHResource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55571086360BBC8418C68EA08C3C3F81 /* HQBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0907E7094DC44DE3B76D191A42171F /* HQBaseAPI.m */; };
 		5859BC188B90AE3FAA71E48A2B839304 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD6AE3A1329929E07013AD442658608 /* MBProgressHUD.framework */; };
 		5A5EFCFA0995621E83CCFF1AEDCBE290 /* YHLanguageSetting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A9226DF2CF8B0BEA2E9F0C165E0E3 /* YHLanguageSetting-dummy.m */; };
 		61B57E29573C007BF97A497C00E406D7 /* YHLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 81858A01EDC1B0EEAD1FECB5DF816449 /* YHLanguageSetting.m */; };
 		624BB905042ACE14AA07562671422DA1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAC8C88FCB441D249AA0DBFB067C91 /* AFURLResponseSerialization.m */; };
+		62FFB15276087940454C3CAAA612E585 /* YHResourceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8CF25E33DF2A4858BF5552F5647806 /* YHResourceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6601D4C9B8E4EC036F03BAC4BFD894A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14EEEA2DBC635C3B9BC8871408C966E /* CoreGraphics.framework */; };
 		67E591A99EC18DAC9FF7005E5B8A2C2F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13C49A24AC6ADDB317559DD0924A985 /* MobileCoreServices.framework */; };
 		6928F2DDE53A93E1E7C1CB35A52D2F2F /* HQDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFE7E1059B65EA963C7EB1694940F55 /* HQDBHelper.m */; };
@@ -58,6 +60,7 @@
 		7570505FB8A9A82F6003466731597458 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05EC6D9EB3CBD3637A914AB8AECF531 /* YYModel.framework */; };
 		78887FFB6C5B059702C5AD5EF4FF77DC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F642784E3B4F6AA56E544CDED5B57EE0 /* CoreFoundation.framework */; };
 		78A49F4CD7C549C185385CDA295E3191 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C567E7D2F115BFBB4586615E51934FF7 /* FMDB.framework */; };
+		78B251036962F29278D4B7B88AFE36F4 /* YHResourceCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD24089403BD2F1DC1E94DCFF4AA97 /* YHResourceCacheManager.m */; };
 		7BFEC384D63A87F217F50D17308819EB /* NSObject+HQDBDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8577966D810BCCF717E2C99DA33937 /* NSObject+HQDBDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C037105004730EED41C72563762587A /* Pods-YHResource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E465A781A3EA15C5290B25DCDB33B987 /* Pods-YHResource_Example-dummy.m */; };
 		7C818AE74E830311E61FF1A7E42D0713 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EC92B4B38C9A0F22D046D58447E50DF5 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -80,6 +83,7 @@
 		AD01D434D8D120A3767270766AD30797 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DEAA088CD7E3BACB2578A9BBC0035B /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0C6735FCC3D0D0FFFA3B038C9C2485B /* HQDBDecodeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E3A9C921A09C9A304E4913F9B8300 /* HQDBDecodeUtilities.m */; };
 		B1A67A8836FD8A91EC6F89BD37577A10 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BECDC7637ADCACA612D40E3BFFBEEF89 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B6A3BCA2F6B91E368F65280058C62C /* YHResource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5225D8FD9C45FF47FF0BCBF94B0ADB /* YHResource-dummy.m */; };
 		B8E6C12FFB6A580F84D4EAA87B4DE0CF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F79B8FED4596130FAC82AA307370F100 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DB5361A6B5861A2B235777F1916DA5 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEF3BA11D8A476D2D8D41B37011D72C /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA88E88A631D6BD023521B7206CE6C25 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF5CCC0A0939600936C4FE482C909 /* FMDB-dummy.m */; };
@@ -93,12 +97,12 @@
 		C8FC0929A42C36174794FE1ADFD620E3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4852E5328F005A60FB5912510A4B4745 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		CD8EFFAE9042CBD6CF59C07D9D3BFA76 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059389446033A9ACBB4DBDAE513CA523 /* FMDB.framework */; };
 		CE79C71C23AA4A598F8EA1D178E5D1B1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E46B2B9F8F84306F02004FD0F8E2325 /* AFNetworking.framework */; };
+		CEF9B72D2E2AA1BBEBB6B9EB501118FF /* YHResourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 432B8263AE8B72E4B9FA2890FC7B5471 /* YHResourceModel.m */; };
 		D6ABDFF81E566FFECF367E42C6333D79 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE283DFB4934DA858B0C18BA83069E /* MBProgressHUD-dummy.m */; };
 		D6DD6CE2F987684D9D4B60D38C0D7254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DC65E314E4417B9BE1EB56D417E501 /* Foundation.framework */; };
 		D711EBBB664A6ED7779B62B8710FB875 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A55E95B7684D939E67DA52CCA4B888B6 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D82DEC6E65A1E7E1807D8DB5916E2E7D /* HQBaseAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C078CAC20685598A68ABB8455BF25A33 /* HQBaseAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAB8578010DF3F5AE22B9606AD715931 /* HQAPIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C28F3CCB3538C2D1F5AE67E2914B9F2 /* HQAPIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAC5F0F62DE9316829505EE0364668E1 /* YHResource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5225D8FD9C45FF47FF0BCBF94B0ADB /* YHResource-dummy.m */; };
 		DD3A0817C155FB7B9B0C08A8BBC66AFE /* GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = DABF8F80B7586703E058C13D4391D59E /* GZIP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DFB9894C774148D06E3DA97D303E724D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056750246661CB9B779643A192069834 /* AFSecurityPolicy.m */; };
 		E14BCEBDE46A9E7A3EC112BD574BC3D8 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 36720FB70D33CB951ACAA7D4147F1288 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -310,7 +314,9 @@
 		3E67F81FD7E140791ADEA305BE3D35D8 /* HQNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQNetworking-prefix.pch"; sourceTree = "<group>"; };
 		3EB1109982B00CD457996F417AAF983E /* HQDBDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQDBDecode-umbrella.h"; sourceTree = "<group>"; };
 		3FBD957D7A31EA0CB2425448A062AAE8 /* HQNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQNetworking.xcconfig; sourceTree = "<group>"; };
+		3FF8C2B1C00758A129BE6E6B1B4183EE /* YHResourceCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHResourceCacheManager.h; sourceTree = "<group>"; };
 		409D10F25DC60B47CC119A0B58E90340 /* YHLanguageSetting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHLanguageSetting-umbrella.h"; sourceTree = "<group>"; };
+		432B8263AE8B72E4B9FA2890FC7B5471 /* YHResourceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHResourceModel.m; sourceTree = "<group>"; };
 		4852E5328F005A60FB5912510A4B4745 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		4AA8228B21B90D8C67C766ED95C1138F /* HQDBDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HQDBDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF613687B705A70736BF8076E0B8488 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -328,6 +334,7 @@
 		5A42D2B2E2BCD46E110D2C77FD39692B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		5C583C24DA5CACD238BD358D2261AE0E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		5C9219D524F9E6F2189F818119E4937F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8CF25E33DF2A4858BF5552F5647806 /* YHResourceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHResourceModel.h; sourceTree = "<group>"; };
 		5E77941ECC5AA0C28FFF3741E9EC7168 /* YHLanguageSetting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YHLanguageSetting.modulemap; sourceTree = "<group>"; };
 		5F3AF5CCC0A0939600936C4FE482C909 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		60009034D6C085D4C73A01256E111674 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
@@ -396,6 +403,7 @@
 		CAAA99090CD0785C4DC71AE95BAB6739 /* Pods-YHResource_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YHResource_Example.modulemap"; sourceTree = "<group>"; };
 		CC584CCB960BACD035BCB47FD65E43D5 /* GZIP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZIP-dummy.m"; sourceTree = "<group>"; };
 		CF9E273F898F4D741CF408C23725C02B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAD24089403BD2F1DC1E94DCFF4AA97 /* YHResourceCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHResourceCacheManager.m; sourceTree = "<group>"; };
 		D07012C406FDC4734C7F4480CD535023 /* HQAPIUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HQAPIUtils.m; path = Classes/HQAPIUtils.m; sourceTree = "<group>"; };
 		D39FE3CE945F9C8EFEE92D60456C77E6 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF8F80B7586703E058C13D4391D59E /* GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = GZIP/GZIP.m; sourceTree = "<group>"; };
@@ -613,6 +621,14 @@
 			path = YHLanguageSetting;
 			sourceTree = "<group>";
 		};
+		2AFE93008D844F7F8891E30209E5E36F /* YHResource */ = {
+			isa = PBXGroup;
+			children = (
+				CABE1D4A3153BE5DA91FBC72FD4848E1 /* Classes */,
+			);
+			path = YHResource;
+			sourceTree = "<group>";
+		};
 		2EFF53A02457DF3B26974FAC3D11E437 /* GZIP */ = {
 			isa = PBXGroup;
 			children = (
@@ -630,14 +646,6 @@
 				81858A01EDC1B0EEAD1FECB5DF816449 /* YHLanguageSetting.m */,
 			);
 			name = Setting;
-			sourceTree = "<group>";
-		};
-		316A26BF400B2D0C1B72AA7863B590E1 /* YHResource */ = {
-			isa = PBXGroup;
-			children = (
-				43A78DAE795CE86D247E4D3D3F358FEC /* Classes */,
-			);
-			path = YHResource;
 			sourceTree = "<group>";
 		};
 		3908B23CC9FEAE5E131C0DBDBE3998D5 /* Support Files */ = {
@@ -661,13 +669,6 @@
 				056750246661CB9B779643A192069834 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		43A78DAE795CE86D247E4D3D3F358FEC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		4B8FCACB7CE460FF1263ECB957ACFE1A /* Support Files */ = {
@@ -897,6 +898,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CABE1D4A3153BE5DA91FBC72FD4848E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8C2B1C00758A129BE6E6B1B4183EE /* YHResourceCacheManager.h */,
+				CFAD24089403BD2F1DC1E94DCFF4AA97 /* YHResourceCacheManager.m */,
+				5D8CF25E33DF2A4858BF5552F5647806 /* YHResourceModel.h */,
+				432B8263AE8B72E4B9FA2890FC7B5471 /* YHResourceModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		CF084431B825FED0DF78BC97815DAD18 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,7 +934,7 @@
 			isa = PBXGroup;
 			children = (
 				EC0AAD28ECAA560EFA01BD07DC458095 /* Support Files */,
-				316A26BF400B2D0C1B72AA7863B590E1 /* YHResource */,
+				2AFE93008D844F7F8891E30209E5E36F /* YHResource */,
 			);
 			name = YHResource;
 			path = ../..;
@@ -1091,11 +1103,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF338879158BD2CAC6990C29AE239E26 /* Headers */ = {
+		C8CA2F96E8A66C54FED64595F94DF967 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C632AD596946FF51E0F2BF0B235580 /* YHResource-umbrella.h in Headers */,
+				0033BF72B75CE65B279FFF227FDE2AC0 /* YHResource-umbrella.h in Headers */,
+				41DFAF9D4A903F969AC9BA020B97A01F /* YHResourceCacheManager.h in Headers */,
+				62FFB15276087940454C3CAAA612E585 /* YHResourceModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,9 +1279,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E904499168CFDB26C08E3B5AD9204B6 /* Build configuration list for PBXNativeTarget "YHResource" */;
 			buildPhases = (
-				4B730787C2CAC600E9631371D5207C50 /* Sources */,
+				319E6BF446CDE887CCA3E1B561F3C3E3 /* Sources */,
 				CE2BA428A26C0FD8883B12576507BA7A /* Frameworks */,
-				FF338879158BD2CAC6990C29AE239E26 /* Headers */,
+				C8CA2F96E8A66C54FED64595F94DF967 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1389,11 +1403,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B730787C2CAC600E9631371D5207C50 /* Sources */ = {
+		319E6BF446CDE887CCA3E1B561F3C3E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC5F0F62DE9316829505EE0364668E1 /* YHResource-dummy.m in Sources */,
+				B8B6A3BCA2F6B91E368F65280058C62C /* YHResource-dummy.m in Sources */,
+				78B251036962F29278D4B7B88AFE36F4 /* YHResourceCacheManager.m in Sources */,
+				CEF9B72D2E2AA1BBEBB6B9EB501118FF /* YHResourceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
